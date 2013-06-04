@@ -28,7 +28,7 @@ Make sure you include the following CSS code on your website.
 
 	/* Preloader */
 	#preloader {
-		position:absolute;
+		position:fixed;
 		top:0;
 		left:0;
 		right:0;
@@ -40,7 +40,7 @@ Make sure you include the following CSS code on your website.
 	#status {
 		width:200px;
 		height:200px;
-		position:absolute;
+		position:fixed;
 		left:50%; /* centers the loading animation horizontally one the screen */
 		top:50%; /* centers the loading animation vertically one the screen */
 		background-image:url(../img/status.gif); /* path to your loading animation */
